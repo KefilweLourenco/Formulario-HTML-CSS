@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário para Acolhimento Psicológico</title>
+        <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url(https://img.freepik.com/vetores-gratis/borda-de-girassol-em-aquarela_23-2149259685.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-color: #FFD700;
+                padding: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height:100vh;
+                margin: 0;
+            }
+
+            form {
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                max-width: 400px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                box-sizing: border-box;
+            }
+
+            h1 {
+                text-align: center;
+                color: #8B4513;
+            }
+
+            label {
+                font-weight: bold;
+                margin-top: 10px;
+                text-align: center;
+                width: 100%;
+            }
+
+            input {
+                width: 100%;
+                padding: 10px;
+                margin: 5px 0 15px 0;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-repeat: no-repeat;
+                background-position: 10px center;
+                padding-left: 40px;
+                box-sizing: border-box;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #8B4513;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-top: 15px;
+            }
+
+            button:hover {
+                background-color: #6b3a10;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form action="#" method="POST">
+            <h1>Formulário para Acolhimento Psicológico</h1>
+
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+            <label for="nome-social">Nome Social</label>
+            <input type="text" id="nome-social" name="nome-social" placeholder="Digite seu nome social (se houver)">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="telefone">Número para Contato</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </body>
+</html>
