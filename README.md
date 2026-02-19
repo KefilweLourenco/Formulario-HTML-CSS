@@ -1,55 +1,56 @@
-# 100 dias de Código - Dia 2: HTML Avançado.
+# Formulário em HTML + CSS
 
-## Objetivo do Dia 2
+Este projeto foi desenvolvido como prática de construção de formulários utilizando HTML e estilização com CSS.
 
-O foco do segundo dia foi continuar a jornada no aprendizado de **HTML**, com ênfase em **formulários**, **semântica** e **acessibilidade**.
-O objetivo principal foi criar a estrutura de uma formulário, mesmo sem a integração do beckend, explorando como organizar os campos e torná-los mais acessíveis.
+O foco foi compreender a estrutura de um formulário, organização de campos e aplicação de conceitos básicos de semântica e acessibilidade.
 
-## O que foi aprendido?
+---
 
-1. **Formulários em HTML**
+## 📚 Conceitos Trabalhados
 
-Neste projeto, foi desenvolvido o **esqueleto de um formulário**, que ainda **não é funcional**, pois não há um beckend configurado para processar os dados.
-Porém, foi possível entender como construir e organizar campos de entrada para diferentes tipos de informações.
+### Estrutura HTML
 
-- **Tags utilizadas:**
-- **< form >**: Define a estrutura do formulário.
-- **< input >**: Usado para diferentes tipos de campos (texto, email, telefone).
-- **< label >**: Associado a cada campo para melhorar a acessibilidade.
-- **< button >**: Cria o botão de envio do formulário (neste caso, o botão ainda não envia para um beckend).
+- Uso da tag `<form>`
+- Campos de entrada com `<input>`
+- Associação de rótulos com `<label>`
+- Botão de envio com `<button>`
+- Organização lógica dos campos
 
-2. **Semântica e Acessibilidade**
+### Semântica e Acessibilidade
 
-A semântica e acessibilidade são elementos fundamentais na construção de um formulário eficaz:
+- Relacionamento entre `label` e `input`
+- Estrutura clara e organizada para melhor leitura
+- Preparação da base para futura validação com JavaScript
 
-- **Elemento semânticos** como **< form >**, **< label >** e **< input >** ajudam a organizar o conteúdo e a tornar o código mais legível para o desenvolvedores
-e ferramentas assistivas.
-- A **acessibilidade** foi melhorada usando o atributo **for** em **< label >**, vinculando-o diretamente aos campos de entrada, facilitando a navegação por leitores
-de tela.
+### Estilização com CSS
 
-3. **Estilos CSS**
+- Organização visual do formulário
+- Ajuste de espaçamentos
+- Estruturação básica de layout
+- Aplicação de estilos para melhor experiência do usuário
 
-Apesar de o foco ser HTML, foi aplicado uma **estilização básica** para melhorar a aparência e a experiência do usuário:
+---
 
-- **Fundo floral e esquema de cores suaves** para um visual acolhedor
-- **Sombra e espaçamento** para melhorar a legibilidade e organização dos elementos.
+## 🧠 Contexto
 
-## Próximos Passos
+Este projeto representa uma etapa importante no entendimento da construção de interfaces web, mesmo sem integração com backend.
 
-O próximo passo será focar em **Validaçãode de Formulários com HTML5 e JavaScript**, garantindo que os dados sejam verificados corretamente antes do envio,
-e posteriormente, integrar com um beckend para tornar o formulário funcional.
+Ele demonstra a base necessária para evoluir posteriormente para validações com JavaScript e integração com APIs.
 
-## Como Visualizar o Projeto
+---
 
-1. **Faça o clone deste repositório**
+## 🚀 Evolução
 
-git clone https://github.com/KefilweLourenco/Formulario-HTML-CSS.git
+Atualmente continuo aprofundando meus estudos em:
 
-## Contribuição
+- JavaScript
+- Manipulação de dados
+- Validação de formulários
+- Estruturação de aplicações web completas
 
-Se você tiver sugestões ou quiser compartilhar dicas, sinta-se a vontade para abrir uma issue ou enviar um pull request.
+---
 
-# Vamos juntos nessa jornada de aprendizado!
+📌 Projeto desenvolvido para fins educacionais e prática de fundamentos.
 
 
 
